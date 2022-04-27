@@ -1,0 +1,104 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #e4e5e6, #00416a ); 
+  }
+  /* container or div part */
+  #container{
+    background-color: #AB274F;
+    width: 460px;
+     margin: 100px auto;
+     box-shadow: 16px 22px 36px -33px rgba(0,0,0,0.78);
+  }
+  /* h1 part */
+  #head{
+      background-color: antiquewhite;
+      color: white;
+      margin: 0;
+      padding: 10px 20px;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 24px;
+      font-weight: bolder;
+
+  }
+  /* button part */
+  .removeall {
+    float: right;
+    font-size: 1em;
+    margin-right: 0%;
+    line-height: 30px;
+    padding-left: 0.5em;
+    cursor: pointer;
+  }
+  
+  .add {
+    float:right;
+    cursor: pointer;
+  }
+  /* for toggle class */
+  .completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+  /* ul part */
+  ul{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+  }
+  /* li part */
+  li{
+      background-color: #d11c52;
+      max-height: 430px;
+      line-height: 40px;
+      color:  lightgray;
+
+  }
+  /* even part of li  */
+  li:nth-child(2n) {
+    background: #7D3B44;
+  }
+  /* input part */
+  input{
+      font-size: 15px;
+      text-align: center;
+      letter-spacing: 1px;
+      background: #a70aa738;
+      width: 100%;
+      border: none;
+      box-sizing: border-box;
+      padding: 13px 13px 13px 20px;
+      color: white;
+  }
+  /* color change placeholder for all browser */
+  ::placeholder{
+      color: black;
+  }
+  /* focus part */
+  input:focus{
+    background: #84593D;
+    outline: none;
+    border: 3px solid #84593D;
+    color: white;
+  }
+  /* hover part */
+  li:hover{
+      cursor: pointer;
+  }
+  /* span part */
+  span{
+      background-color: #217353;
+      height: 50px;
+      margin-right: 20px;
+      text-align: center;
+      color: white;
+      width: 0px;
+      display: inline-block;
+      transition: 0.3s linear;
+      opacity: 1;
+  }
+  /* hover on span  */
+  li:hover span{
+      width: 40px;
+      opacity: 1;
+  }
